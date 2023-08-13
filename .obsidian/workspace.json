@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "dd4c4ee01943b291",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c14ba9e60de9ccd",
+        "type": "tabs",
+        "dimension": 59.07626208378088,
+        "children": [
+          {
+            "id": "34ba00da0b2d00c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git学习笔记.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "4d59bfd5a4fdc750",
+        "type": "tabs",
+        "dimension": 40.923737916219125,
+        "children": [
+          {
+            "id": "d03228729ca19cb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git学习笔记.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "26007c3a09bd28f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "b22446e7ad634e1e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da26034427754942",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7de0aa7e6445fa7d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4763102794163faf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 338.5015983581543
+  },
+  "right": {
+    "id": "aa97ae8f1511444b",
+    "type": "split",
+    "children": [
+      {
+        "id": "4975f6a679353e45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "785649a578186b9e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "git学习笔记.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "02cfb7d90bf82f74",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "git学习笔记.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3e45ec12c2c1e2e4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9954b356d82af190",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "git学习笔记.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "da26034427754942",
+  "lastOpenFiles": [
+    "img/git流程图.png",
+    "git学习笔记.md",
+    "img",
+    "Pasted image 20230813190034.png",
+    "c/消息队列.md",
+    "c"
+  ]
+}
