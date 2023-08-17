@@ -14,8 +14,10 @@ touch ~/.bashrc
 # 打开 .bashrc 文件
 vim ~./bashrc
 # 键入以下内容 多条指令间用 && 连接
-alias "你设置的命令名称"="原指令"
-alias "ct"="cd /home && touch demo.txt
+alias 你设置的命令名='原指令'
+alias ct='cd /home && touch demo.txt'
+# 保存退出后在终端输入
+source ~/.bashrc
 ```
 3. 解决 gitbash 乱码
 	1. 打开 gitbash 执行下面命令
@@ -43,6 +45,7 @@ git add . # 添加所有文件到暂存区
  git log --abbrev-commit # 是输出的 commitid 更加简短
  git log --graph # 以图形形式显示
  git reflog # 查看已删除的记录
+ git log --all --pretty=oneline --abbrev-commit --graph
 ```
 5. 查看状态
 `git status`
@@ -111,7 +114,7 @@ git pull # == git fech && git merge
 
 # 修改冲突文件 改成自己想要的
 # 提交
-git add && git commig && git push
+git add && git commigt && git push
 
 ```
 # 常见问题

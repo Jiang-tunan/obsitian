@@ -6,7 +6,7 @@
       {
         "id": "2c14ba9e60de9ccd",
         "type": "tabs",
-        "dimension": 52.14953271028037,
+        "dimension": 52.14953271028036,
         "children": [
           {
             "id": "34ba00da0b2d00c7",
@@ -25,7 +25,7 @@
       {
         "id": "4d59bfd5a4fdc750",
         "type": "tabs",
-        "dimension": 47.85046728971963,
+        "dimension": 47.85046728971964,
         "children": [
           {
             "id": "d03228729ca19cb5",
@@ -166,7 +166,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "da26034427754942",
+  "active": "34ba00da0b2d00c7",
   "lastOpenFiles": [
     "img/git流程图.png",
     "git学习笔记.md",
