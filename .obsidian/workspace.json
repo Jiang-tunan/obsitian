@@ -6,7 +6,6 @@
       {
         "id": "8f589bb91d085e28",
         "type": "tabs",
-        "dimension": 52.9441117764471,
         "children": [
           {
             "id": "f1892e2c61e9396f",
@@ -14,28 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c/消息队列.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "faeb82f5c88062a2",
-        "type": "tabs",
-        "dimension": 47.05588822355289,
-        "children": [
-          {
-            "id": "f5dfd9008edee4b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c/消息队列.md",
-                "mode": "source",
-                "source": false
               }
             }
           }
@@ -89,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "aa97ae8f1511444b",
@@ -106,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c/消息队列.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c/消息队列.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c/消息队列.md"
+                "file": "README.md"
               }
             }
           }
@@ -167,13 +146,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f1892e2c61e9396f",
+  "active": "da26034427754942",
   "lastOpenFiles": [
-    "git学习笔记.md",
+    "工具学习记录",
+    "leetcode/easy.md",
+    "leetcode/未命名",
+    "linux/进程与线程.md",
+    "leetcode",
     "c/消息队列.md",
+    "zabbix/杂项记录.md",
+    "工具学习记录/git学习笔记.md",
     "linux/命令.md",
     "README.md",
-    "杂项记录.md",
     "linux",
     "img/git流程图.png",
     "img",
