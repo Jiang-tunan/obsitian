@@ -19,14 +19,6 @@ alias ct='cd /home && touch demo.txt'
 # 保存退出后在终端输入
 source ~/.bashrc
 ```
-3. 解决 gitbash 乱码
-	1. 打开 gitbash 执行下面命令
-	   `git config --global core.quotepath false`
-	2. $(git_home)/etc/bash.bashrc 文件加入下面两行
-```
-export LANG="zh_CN.UTF-8"
-export LC_ALL="zh_CN.UTF-8"
-```
 # 三 基础操作指令
 1. 初始化仓库
    `git init`
@@ -80,6 +72,22 @@ git merge feaname
 git branch -d feaname
 git branch -D feaname # 强制删除
 ```
+9. 查看文件变化
+```shell
+# 为暂存或未提交与最近一次提交的不同
+git diff
+
+# 暂存区与最近一次提交
+git diff --staged
+
+#当前工作目录与指定分支或提交的差异
+git diff branch_name
+git diff comit_hash
+
+# 比较两个不同分支差异
+git diff branch_name1 brnach_name2
+git diff commit_hash1 commit_hash2
+```
 # 远程仓库
 1. 生成 ssh 公钥
 `ssh-keygen -t rea`
@@ -92,6 +100,7 @@ git remote add origin 地址
 ```shell
 # 推送到指定分支
 git push origin 本地分支名:远程分支名
+
 # 建立本地和远程的关联
 git push --set-upstream origin 远程分支名
 
@@ -107,7 +116,7 @@ git fetch
 git merge 分支名
 git pull
 ```
-5. 解决冲突
+6. 解决冲突
 ```shell
 # 拉取远端文件
 git pull # == git fech && git merge
@@ -116,6 +125,26 @@ git pull # == git fech && git merge
 # 提交
 git add && git commigt && git push
 
+```
+7. 常用操作
+```shell
+# 查看绑定的分支
+git branch -vv
+
+# 查看当前分支与远程建立连接分支的差异
+git diff origin/branch_name..local_branch_name
+
+# 清理远程仓库i不存在的分支
+git remote prune origin
+
+# 查看远程仓库所有分支
+git remote show origin
+
+# 获取远程仓库指定分支最新的更改
+git fetch origin branch_name
+
+# 撤销 add 操作
+git restore --staged .
 ```
 # 常见问题
 1. 换行符问题
@@ -130,4 +159,12 @@ git config --global core.autocrlf input
 
 #提交检出均不转换
 git config --global core.autocrlf false
+```
+2. 解决 gitbash 中文乱码
+	1. 打开 gitbash 执行下面命令
+	   `git config --global core.quotepath false`
+	2. $(git_home)/etc/bash.bashrc 文件加入下面两行
+```
+export LANG="zh_CN.UTF-8"
+export LC_ALL="zh_CN.UTF-8"
 ```
