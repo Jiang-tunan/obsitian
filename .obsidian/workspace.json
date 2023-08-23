@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "4d59bfd5a4fdc750",
-        "type": "tabs",
-        "dimension": 52.9441117764471,
-        "children": [
-          {
-            "id": "d03228729ca19cb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/进程与线程.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "faeb82f5c88062a2",
         "type": "tabs",
-        "dimension": 47.05588822355289,
         "children": [
           {
             "id": "f5dfd9008edee4b1",
