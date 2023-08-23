@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "faeb82f5c88062a2",
+        "id": "8f589bb91d085e28",
         "type": "tabs",
         "children": [
           {
-            "id": "f5dfd9008edee4b1",
+            "id": "f1892e2c61e9396f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/进程与线程.md",
-                "mode": "preview",
+                "file": "README.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "aa97ae8f1511444b",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/进程与线程.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/进程与线程.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/进程与线程.md"
+                "file": "README.md"
               }
             }
           }
@@ -147,13 +146,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f5dfd9008edee4b1",
+  "active": "da26034427754942",
   "lastOpenFiles": [
-    "linux/命令.md",
+    "工具学习记录",
+    "leetcode/easy.md",
+    "leetcode/未命名",
     "linux/进程与线程.md",
-    "杂项记录.md",
+    "leetcode",
     "c/消息队列.md",
-    "git学习笔记.md",
+    "zabbix/杂项记录.md",
+    "工具学习记录/git学习笔记.md",
+    "linux/命令.md",
+    "README.md",
     "linux",
     "img/git流程图.png",
     "img",
