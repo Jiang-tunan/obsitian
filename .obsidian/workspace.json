@@ -6,6 +6,7 @@
       {
         "id": "70295df9a5ebb7fe",
         "type": "tabs",
+        "dimension": 30.74766355140187,
         "children": [
           {
             "id": "2d295cbe82eb0774",
@@ -13,8 +14,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zabbix/杂项记录.md",
+                "file": "leetcode/easy.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "de935014b785c8e8",
+        "type": "tabs",
+        "dimension": 69.25233644859813,
+        "children": [
+          {
+            "id": "b3f2dcb83423030e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux/命令.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zabbix/杂项记录.md",
+                "file": "linux/命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zabbix/杂项记录.md",
+                "file": "linux/命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zabbix/杂项记录.md"
+                "file": "linux/命令.md"
               }
             }
           }
@@ -146,15 +166,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2d295cbe82eb0774",
+  "active": "b3f2dcb83423030e",
   "lastOpenFiles": [
-    "工具学习记录/git学习笔记.md",
+    "leetcode/easy.md",
     "zabbix/杂项记录.md",
+    "工具学习记录/git学习笔记.md",
     "c/消息队列.md",
     "计算机网络/HTTP.md",
     "README.md",
     "计算机网络",
-    "leetcode/easy.md",
     "工具学习记录",
     "leetcode/未命名",
     "linux/进程与线程.md",
