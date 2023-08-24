@@ -4,20 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "70295df9a5ebb7fe",
+        "id": "0a210711d1e9004c",
         "type": "tabs",
         "dimension": 30.74766355140187,
         "children": [
           {
-            "id": "2d295cbe82eb0774",
+            "id": "61692a253aa25457",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "leetcode/easy.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -105,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +117,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "linux/命令.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -166,10 +158,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b3f2dcb83423030e",
+  "active": "61692a253aa25457",
   "lastOpenFiles": [
-    "leetcode/easy.md",
+    "linux/使用 ssh 登录.md",
+    "工具学习记录/automake/编译过程.md",
     "zabbix/杂项记录.md",
+    "工具学习记录/automake",
     "工具学习记录/git学习笔记.md",
     "c/消息队列.md",
     "计算机网络/HTTP.md",
