@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0a210711d1e9004c",
+        "id": "f7096020176c2efb",
         "type": "tabs",
         "children": [
           {
-            "id": "61692a253aa25457",
+            "id": "000992a1c453d232",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,10 +138,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "61692a253aa25457",
+  "active": "000992a1c453d232",
   "lastOpenFiles": [
-    "linux/使用 ssh 登录.md",
+    "c/头文件.md",
+    "zabbix/监控项类型.md",
     "工具学习记录/automake/编译过程.md",
+    "linux/使用 ssh 登录.md",
     "zabbix/杂项记录.md",
     "工具学习记录/automake",
     "工具学习记录/git学习笔记.md",
