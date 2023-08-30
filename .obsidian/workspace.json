@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "cdd67544f9e7ec08",
+        "id": "8d32809257c55d99",
         "type": "tabs",
         "children": [
           {
-            "id": "c617045828cc6216",
+            "id": "6917cf41013b70fd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "leetcode/medium.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "leetcode/medium.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "leetcode/medium.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "leetcode/medium.md"
+              }
             }
           }
         ]
@@ -138,10 +146,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c617045828cc6216",
+  "active": "6917cf41013b70fd",
   "lastOpenFiles": [
-    "leetcode/easy.md",
+    "README.md",
     "leetcode/medium.md",
+    "leetcode/easy.md",
     "linux/使用 ssh 登录.md",
     "c/头文件.md",
     "工具学习记录/automake/编译过程.md",
@@ -151,7 +160,6 @@
     "工具学习记录/git学习笔记.md",
     "c/消息队列.md",
     "计算机网络/HTTP.md",
-    "README.md",
     "计算机网络",
     "工具学习记录",
     "leetcode/未命名",
