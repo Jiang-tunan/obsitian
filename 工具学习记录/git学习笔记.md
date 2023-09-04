@@ -71,6 +71,9 @@ git merge feaname
 # 删除分支
 git branch -d feaname
 git branch -D feaname # 强制删除
+
+# 修改分支名
+git branch -m newname
 ```
 9. 查看文件变化
 ```shell
@@ -159,6 +162,9 @@ git config --global core.autocrlf input
 
 #提交检出均不转换
 git config --global core.autocrlf false
+
+# 将两个没有共同历史的分支合并起来
+git pull origin main --allow-unrelated-histories
 ```
 2. 解决 gitbash 中文乱码
 	1. 打开 gitbash 执行下面命令
