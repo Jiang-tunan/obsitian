@@ -11,11 +11,26 @@
             "id": "c617045828cc6216",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "工具学习记录/git学习笔记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f3a777563efa9154",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "工具学习记录/git学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "工具学习记录/git学习笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "工具学习记录/git学习笔记.md"
+              }
             }
           }
         ]
@@ -138,17 +157,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c617045828cc6216",
+  "active": "f3a777563efa9154",
   "lastOpenFiles": [
+    "zabbix/杂项记录.md",
+    "工具学习记录/git学习笔记.md",
+    "linux/使用 ssh 登录.md",
+    "zabbix/监控项类型.md",
+    "工具学习记录/automake/编译过程.md",
     "leetcode/easy.md",
     "leetcode/medium.md",
-    "linux/使用 ssh 登录.md",
     "c/头文件.md",
-    "工具学习记录/automake/编译过程.md",
-    "zabbix/监控项类型.md",
-    "zabbix/杂项记录.md",
     "工具学习记录/automake",
-    "工具学习记录/git学习笔记.md",
     "c/消息队列.md",
     "计算机网络/HTTP.md",
     "README.md",
