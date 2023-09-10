@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "8d32809257c55d99",
+        "id": "6fee55614414bc23",
         "type": "tabs",
         "children": [
           {
-            "id": "6917cf41013b70fd",
+            "id": "c5ef3c8f07f5577a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode/medium.md",
+                "file": "linux/命令.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/medium.md",
+                "file": "linux/命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "leetcode/medium.md",
+                "file": "linux/命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/medium.md"
+                "file": "linux/命令.md"
               }
             }
           }
@@ -146,29 +146,30 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f3a777563efa9154",
+  "active": "c5ef3c8f07f5577a",
   "lastOpenFiles": [
+    "工具学习记录/wsl.md",
+    "leetcode/medium.md",
     "leetcode/hard.md",
     "leetcode/easy.md",
+    "zabbix/杂项记录.md",
+    "语言学习/python",
+    "语言学习",
     "linux/使用 ssh 登录.md",
     "linux/命令.md",
     "linux/进程与线程.md",
     "工具学习记录/git学习笔记.md",
-    "leetcode/medium.md",
     "README.md",
-    "c/头文件.md",
+    "语言学习/c/头文件.md",
     "工具学习记录/automake/编译过程.md",
     "zabbix/监控项类型.md",
-    "zabbix/杂项记录.md",
     "工具学习记录/git学习笔记.md",
     "linux/使用 ssh 登录.md",
     "zabbix/监控项类型.md",
     "工具学习记录/automake/编译过程.md",
-    "leetcode/easy.md",
-    "leetcode/medium.md",
-    "c/头文件.md",
+    "语言学习/c/头文件.md",
     "工具学习记录/automake",
-    "c/消息队列.md",
+    "语言学习/c/消息队列.md",
     "计算机网络/HTTP.md",
     "计算机网络",
     "工具学习记录",
@@ -178,6 +179,6 @@
     "img/git流程图.png",
     "img",
     "Pasted image 20230813190034.png",
-    "c"
+    "语言学习/c"
   ]
 }
