@@ -328,3 +328,89 @@ int romanToInt(char * s) {
 }
 // 时间复杂度是O(n)
 ```
+### 7.最后一个单词的长度
+给你一个字符串 `s`，由若干单词组成，单词前后用一些空格字符隔开。返回字符串中 **最后一个** 单词的长度。
+**单词** 是指仅由字母组成、不包含任何空格字符的最大子字符串。
+
+**示例 1：**
+**输入：**s = "Hello World"
+**输出：**5
+**解释：**最后一个单词是“World”，长度为5。
+
+**示例 2：**
+**输入：**s = "   fly me   to   the moon  "
+**输出：**4
+**解释：**最后一个单词是“moon”，长度为4。
+
+**示例 3：**
+**输入：**s = "luffy is still joyboy"
+**输出：**6
+**解释：**最后一个单词是长度为6的“joyboy”。
+
+**提示：**
+- `1 <= s.length <= 104`
+- `s` 仅有英文字母和空格 `' '` 组成
+- `s` 中至少存在一个单词
+```c
+int lengthOfLastWord(char *s) {
+    int len = strlen(s);
+    int count = 0;
+
+    // 从字符串末尾开始遍历
+    for (int i = len - 1; i >= 0; i--) {
+        // 如果遇到非空格字符，开始计数
+        if (s[i] != ' ') {
+            count++;
+        }
+        // 如果在计数期间遇到空格，停止计数并退出循环
+        else if (count > 0) {
+            break;
+        }
+    }
+    return count;
+}
+```
+### 8. 最长公共前缀
+编写一个函数来查找字符串数组中的最长公共前缀。
+如果不存在公共前缀，返回空字符串 `""`。
+
+**示例 1：**
+**输入：**strs = ["flower","flow","flight"]
+**输出：**"fl"
+
+**示例 2：**
+**输入：**strs = ["dog","racecar","car"]
+**输出：**""
+**解释：**输入不存在公共前缀。
+
+**提示：**
+- `1 <= strs.length <= 200`
+- `0 <= strs[i].length <= 200`
+- `strs[i]` 仅由小写英文字母组成
+```c
+char* longestCommonPrefix(char** strs, int strsSize) {
+    if (strsSize == 0) return "";
+    static char res[1000];
+    int index = 0;
+    
+    for (int i = 0; i < strlen(strs[0]); i++) {
+        char c = strs[0][i];
+        bool isCommon = true;
+
+        for (int j = 1; j < strsSize; j++) {
+            if (i >= strlen(strs[j]) || strs[j][i] != c) {
+                isCommon = false;
+                break;
+            }
+        }
+
+        if (isCommon) {
+            res[index++] = c;
+        } else {
+            break;
+        }
+    }
+    res[index] = '\0';
+    return res;
+}
+```
