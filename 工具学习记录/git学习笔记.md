@@ -46,7 +46,7 @@ git add . # 添加所有文件到暂存区
 git reset --hard commitID
 
 # 撤销 commit
-git reset HERD~1
+git reset HEAD~1
 
 # 撤销 push
 git revert <commit-SHA>
