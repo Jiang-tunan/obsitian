@@ -44,6 +44,12 @@ git add . # 添加所有文件到暂存区
 6. 版本回退
 ```shell
 git reset --hard commitID
+
+# 撤销 commit
+git reset HERD~1
+
+# 撤销 push
+git revert <commit-SHA>
 ```
 7. 添加忽略管理内容
 ```shell
@@ -90,6 +96,29 @@ git diff comit_hash
 # 比较两个不同分支差异
 git diff branch_name1 brnach_name2
 git diff commit_hash1 commit_hash2
+```
+10. 保存到临时的存储区
+```shell
+# 存工作目录中的更改 这个命令将工作目录中的所有未提交更改保存到一个新的存储堆栈中，同时可以添加一条描述性消息。
+git stash save "Your stash message"
+
+# 查看存储的堆栈列表:这个命令会列出所有存储的堆栈，每个堆栈都有一个唯一的名称，通常是 `stash@{n}`，其中 `n` 是堆栈的索引。
+git stash list
+
+# 恢复最新的存储：这个命令会将最新的存储堆栈中的更改应用到工作目录中，但不会将存储堆栈弹出。
+git stash apply
+
+# 恢复并删除最新的存储：这个命令与 `git stash apply` 类似，但它会将存储堆栈中的更改应用到工作目录后，将该存储堆栈从列表中删除。
+git stash pop
+
+# 恢复特定的存储：这个命令允许你从存储堆栈中选择一个特定的存储并将其应用到工作目录中，其中 `n` 是存储堆栈的索引。
+git stash apply stash@{n}
+
+# 删除存储堆栈：如果你不再需要特定的存储堆栈，可以使用此命令将其从列表中删除。
+git stash drop stash@{n}
+
+# 清除所有存储堆栈：这个命令会删除所有存储堆栈，慎用，因为它会永久删除所有保存的更改。
+git stash clear
 ```
 # 远程仓库
 1. 生成 ssh 公钥
