@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具学习记录/git学习笔记.md",
+                "file": "linux/rpm打包安装过程.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具学习记录/git学习笔记.md",
+                "file": "linux/rpm打包安装过程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具学习记录/git学习笔记.md",
+                "file": "linux/rpm打包安装过程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具学习记录/git学习笔记.md"
+                "file": "linux/rpm打包安装过程.md"
+              }
+            }
+          },
+          {
+            "id": "457b275c3be0119b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -148,22 +158,23 @@
   },
   "active": "28b47b4b8eb176d5",
   "lastOpenFiles": [
+    "zabbix/杂项记录.md",
+    "linux/rpm打包安装过程.md",
+    "linux/命令.md",
+    "linux/配置修改.md",
+    "工具学习记录/automake/编译过程.md",
+    "linux/进程与线程.md",
+    "工具学习记录/git学习笔记.md",
     "leetcode/medium.md",
     "leetcode/easy.md",
     "leetcode/hard.md",
-    "工具学习记录/git学习笔记.md",
     "语言学习/c/消息队列.md",
     "语言学习/c/头文件.md",
     "语言学习/c",
     "语言学习",
     "工具学习记录/wsl.md",
-    "zabbix/杂项记录.md",
-    "linux/进程与线程.md",
-    "linux/命令.md",
     "工具学习记录/vim.md",
-    "linux/使用 ssh 登录.md",
     "zabbix/监控项类型.md",
-    "工具学习记录/automake/编译过程.md",
     "c/头文件.md",
     "工具学习记录/automake",
     "c/消息队列.md",
