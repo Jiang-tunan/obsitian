@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "8b2749cdb36e39ba",
+        "id": "af7a98f78dff4b4f",
         "type": "tabs",
         "children": [
           {
-            "id": "28b47b4b8eb176d5",
+            "id": "5352edf786de454c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/rpm打包安装过程.md",
+                "file": "linux/配置修改.md",
                 "mode": "source",
-                "source": true
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "49e5f1a19e864efb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zabbix/杂项记录.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/rpm打包安装过程.md",
+                "file": "zabbix/杂项记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/rpm打包安装过程.md",
+                "file": "zabbix/杂项记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/rpm打包安装过程.md"
+                "file": "zabbix/杂项记录.md"
               }
             }
           },
@@ -156,15 +169,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "28b47b4b8eb176d5",
+  "active": "49e5f1a19e864efb",
   "lastOpenFiles": [
-    "zabbix/杂项记录.md",
-    "linux/rpm打包安装过程.md",
-    "linux/命令.md",
     "linux/配置修改.md",
+    "zabbix/杂项记录.md",
+    "工具学习记录/git学习笔记.md",
+    "zabbix/IBMI.md",
+    "README.md",
+    "linux/命令.md",
+    "linux/rpm打包安装过程.md",
     "工具学习记录/automake/编译过程.md",
     "linux/进程与线程.md",
-    "工具学习记录/git学习笔记.md",
     "leetcode/medium.md",
     "leetcode/easy.md",
     "leetcode/hard.md",
@@ -179,7 +194,6 @@
     "工具学习记录/automake",
     "c/消息队列.md",
     "计算机网络/HTTP.md",
-    "README.md",
     "计算机网络",
     "工具学习记录",
     "leetcode/未命名",
