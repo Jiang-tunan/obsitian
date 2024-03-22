@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具学习记录/git学习笔记.md",
+                "file": "工具学习记录/mysql.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具学习记录/git学习笔记.md",
+                "file": "工具学习记录/mysql.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具学习记录/git学习笔记.md",
+                "file": "工具学习记录/mysql.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具学习记录/git学习笔记.md"
+                "file": "工具学习记录/mysql.md"
               }
             }
           },
@@ -160,40 +160,42 @@
   },
   "active": "5352edf786de454c",
   "lastOpenFiles": [
-    "工具学习记录/automake/编译过程.md",
-    "README.md",
+    "linux/命令.md",
+    "工具学习记录/vim.md",
+    "工具学习记录/mysql.md",
     "zabbix/杂项记录.md",
+    "工具学习记录/git学习笔记.md",
+    "语言学习/python/pyqt5/QWidget.md",
+    "语言学习/python/学习方式.md",
+    "语言学习/python/pyqt5",
+    "语言学习/未命名.md",
+    "语言学习/python",
+    "leetcode/easy.md",
+    "linux/进程与线程.md",
+    "linux/配置修改.md",
+    "linux/rpm打包安装过程.md",
     "zabbix/监控项类型.md",
+    "README.md",
+    "工具学习记录/wsl.md",
+    "工具学习记录/automake/编译过程.md",
     "语言学习/go/编译.md",
     "语言学习/go",
-    "工具学习记录/mysql.md",
-    "工具学习记录/git学习笔记.md",
     "计算机网络/https.md",
     "计算机网络/HTTP.md",
-    "linux/命令.md",
-    "linux/进程与线程.md",
-    "linux/rpm打包安装过程.md",
-    "linux/配置修改.md",
     "zabbix/IBMI.md",
     "leetcode/medium.md",
-    "leetcode/easy.md",
     "leetcode/hard.md",
     "语言学习/c/消息队列.md",
     "语言学习/c/头文件.md",
     "语言学习/c",
     "语言学习",
-    "工具学习记录/wsl.md",
-    "工具学习记录/vim.md",
     "c/头文件.md",
     "工具学习记录/automake",
-    "c/消息队列.md",
     "计算机网络",
     "工具学习记录",
     "leetcode/未命名",
     "leetcode",
-    "linux",
     "img/git流程图.png",
-    "img",
     "Pasted image 20230813190034.png"
   ]
 }
