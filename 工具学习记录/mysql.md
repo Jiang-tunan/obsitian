@@ -3,6 +3,11 @@ skip-grant-tables
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'Bzy8@9Irgd';
  FLUSH PRIVILEGES;
 
+# 删除所有表
+```mysql
+SELECT CONCAT('DROP TABLE IF EXISTS ', table_name, ';') FROM information_schema.tables WHERE table_schema = 'your_database_name';
+```
+
 # 创建数据库
 ```mysql
 -- 创建数据库
