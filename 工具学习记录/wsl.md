@@ -51,5 +51,8 @@
 查看环境变量
 `$env:PATH`
 
+# Vbox
+VBoxManage.exe controlvm centos-8 poweroff
+VBoxManage.exe startvm centos-8 --type headless
 
 `
