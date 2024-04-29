@@ -19,6 +19,7 @@
 7. **New-Item**: 创建新的文件或目录。
     `New-Item <path> -ItemType <ItemType>`
 	`ni`
+	`md`
 1. **Remove-Item**: 删除文件或目录。
     `Remove-Item <path>`
     `ri`
