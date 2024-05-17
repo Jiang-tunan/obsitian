@@ -185,3 +185,10 @@ gpgcheck=0
         请确保将`baseurl`的路径更改为您的RPM目录的实际路径。
 
 现在，已经创建了一个包含`zops-server`及其所有依赖项的RPM包集。如果您希望其他系统也能访问您的仓库，您可以使用HTTP服务器（如Apache或Nginx）来托管它，然后将`baseurl`更改为HTTP URL。
+
+## dnf or yum
+```shell
+# 只下载rpm及依赖
+yum install --downloadonly --downloaddir=/root/tognix-agentd-e17-requires/ libc.so.6
+
+```

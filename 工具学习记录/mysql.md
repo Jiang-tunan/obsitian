@@ -29,7 +29,7 @@ FLUSH PRIVILEGES;
 -- 临时禁用二进制日志对权限的校验
 SET GLOBAL log_bin_trust_function_creators = 1;
 
--- 
+-- 修改登录主机限制
 UPDATE mysql.user SET Host = '%' WHERE User = 'root' AND Host = 'localhost';
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
 

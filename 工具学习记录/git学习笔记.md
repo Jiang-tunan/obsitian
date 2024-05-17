@@ -279,6 +279,7 @@ echo ".env" >> .gitignore
 
 ```bash
 git rm --cached .env
+git rm --cached -r cmake-build-debug
 ```
 
 `git rm` 命令，连同 `--cached` 选项，从版本库中删除文件，但不删除实际的文件。这意味着该文件仍然在你的本地系统和工作目录中作为一个被忽略的文件。
