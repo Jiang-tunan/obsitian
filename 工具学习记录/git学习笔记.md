@@ -38,6 +38,12 @@ git add . # 添加所有文件到暂存区
  git log --graph # 以图形形式显示
  git reflog # 查看已删除的记录
  git log --all --pretty=oneline --abbrev-commit --graph
+ git log -p -- src/zabbix_server/poller/poller.c# 查看单个文件详细的修改
+ git log --oneline -- path/to/your/file # 查看文件的简洁修改记录
+ # 查看文件在特定时间范围内的修改记录
+ git log --since="2023-01-01" --until="2023-06-01" -- path/to/your/file
+ # 查看文件的某个特定提交的详细内容
+ git show COMMIT_HASH -- path/to/your/file
 ```
 5. 查看状态
 `git status`
@@ -298,5 +304,4 @@ git add .gitignore
 
 ```bash
 git commit -m "update ignored files"
-```
 ```
