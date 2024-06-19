@@ -8,7 +8,16 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'Bzy8@9Irgd';
 
 # 删除所有表
 ```mysql
-SELECT CONCAT('DROP TABLE IF EXISTS ', table_name, ';') FROM information_schema.tables WHERE table_schema = 'your_database_name';
+SET GROUP_CONCAT_MAX_LEN = 32768;
+SELECT CONCAT('DROP TABLE IF EXISTS ', GROUP_CONCAT(table_name), ';') 
+INTO @drop_statement 
+FROM information_schema.tables 
+WHERE table_schema = 'tognix';
+
+PREPARE stmt FROM @drop_statement;
+EXECUTE stmt;
+DEALLOCATE PREPARE stmt;
+
 ```
 
 # 创建数据库
