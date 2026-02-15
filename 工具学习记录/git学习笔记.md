@@ -128,12 +128,12 @@ git stash clear
 ```
 # 远程仓库
 1. 生成 ssh 公钥
-`ssh-keygen -t rea`
+`ssh-keygen -t ed25519 -C "你的邮箱@example.com"`
 2. 添加远程仓库
 ```
 git remote add origin 地址
 
-```
+ ```
 3. 推送仓库
 ```shell
 # 推送到指定分支

@@ -29,3 +29,16 @@
 10. **Move-Item**: 移动文件或目录。
     `Move-Item <source> <destination>`
     `mv`
+
+
+
+
+
+
+
+
+
+
+
+
+## 
